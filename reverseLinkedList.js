@@ -44,10 +44,12 @@ class LinkedList {
     print() {
         console.log("Head:", this.head ? this.head.data : "null");
         let current = this.head;
+        let printLinkedList = "";
         while (current) {
-            console.log(current.data);
+            printLinkedList += current.data+"->";
             current = current.next;
         }
+        console.log(printLinkedList)
     }
 }
 
