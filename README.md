@@ -5,3 +5,4 @@ In this repository, you will find classical algorithms that are known to be used
 - Reverse a Linked List of integers
 - Reverse a String
 - Verify if a number is a Fibonacci number
+- Sort array of numbers
