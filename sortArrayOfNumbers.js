@@ -7,6 +7,7 @@ function quickSort(arr) {
   const left = [];
   const right = [];
   const equal = [];
+  let iterationNumber = 1;
 
   for (const element of arr) {
     if (element < pivot) {
@@ -16,6 +17,12 @@ function quickSort(arr) {
     } else {
       equal.push(element);
     }
+    console.log("Iteration number: " + iterationNumber)
+    iterationNumber++;
+    console.log("Left array: " + left)
+    console.log("Right array: " + right)
+    console.log("Pivot: " + pivot)
+    console.log()
   }
 
   return [...quickSort(left), ...equal, ...quickSort(right)]; // Recursively sort left and right subarrays
