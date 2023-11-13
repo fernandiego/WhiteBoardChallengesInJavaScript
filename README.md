@@ -7,3 +7,4 @@ In this repository, you will find classical algorithms that are known to be used
 - Verify if a number is a Fibonacci number
 - Sort array of numbers
 - Binary search for a number in a array of numbers
+- Print elements of a linked list
